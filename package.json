@@ -1,0 +1,20 @@
+{
+  "name": "film-app-mongoose",
+  "version": "1.0.0",
+  "description": "\"# film-app-mongoose\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jef1993/film-app-mongoose.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jef1993/film-app-mongoose/issues"
+  },
+  "homepage": "https://github.com/jef1993/film-app-mongoose#readme"
+}
