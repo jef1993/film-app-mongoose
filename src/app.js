@@ -32,7 +32,7 @@ const app = async () => {
     const query = {};
     const updateContent = { $set: {} };
 
-    const queryArr = command[1].split(/[/]/);
+    const queryArr = command[1].split(/[=/]/);
 
     for (let i = 0; i < queryArr.length; i += 2) {
       query[queryArr[i]] = queryArr[i + 1];
