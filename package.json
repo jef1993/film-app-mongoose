@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/jef1993/film-app-mongoose/issues"
   },
-  "homepage": "https://github.com/jef1993/film-app-mongoose#readme"
+  "homepage": "https://github.com/jef1993/film-app-mongoose#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.5"
+  }
 }
