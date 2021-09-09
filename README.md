@@ -1,4 +1,5 @@
 "# film-app-mongoose"
+This app requires you to run "npm i" and add a .env file with a valid MONGO_URI to work
 
 ## test data:
 
