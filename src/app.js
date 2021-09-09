@@ -57,6 +57,3 @@ const app = async () => {
 };
 
 app();
-
-// const arrStr = `a:1,b:2,c:3`;
-// console.log(arrStr.split(/[:,]/));

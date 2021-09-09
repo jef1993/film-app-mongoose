@@ -3,7 +3,8 @@ const Movie = require("./movie.model");
 exports.addMovie = async (newMovie) => {
   try {
     const movie = new Movie(newMovie);
-    await movie.save();
+    const add = await movie.save();
+    console.log(add);
   } catch (error) {
     console.log(error);
   }
@@ -20,7 +21,8 @@ exports.findMovie = async (query) => {
 
 exports.updateMovie = async (query, updateContent) => {
   try {
-    await Movie.updateOne(query, updateContent);
+    const update = await Movie.updateOne(query, updateContent);
+    console.log(update);
   } catch (error) {
     console.log(error);
   }
@@ -28,9 +30,9 @@ exports.updateMovie = async (query, updateContent) => {
 
 exports.deleteMovie = async (query) => {
   try {
-    await Movie.deleteOne(query);
+    const del = await Movie.deleteOne(query);
+    console.log(del);
   } catch (error) {
     console.log(error);
   }
 };
-
